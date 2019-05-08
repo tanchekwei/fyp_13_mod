@@ -12,16 +12,16 @@
 
         <title>@yield('title')</title>
         <!-- Bootstrap core CSS-->
-        <link href="{{ asset('public/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+        <link href="{{ asset('vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
 
         <!-- Custom fonts for this template-->
-        <link href="{{ asset('public/vendor/fontawesome-free/css/all.min.css') }}" rel="stylesheet" type="text/css">
+        <link href="{{ asset('vendor/fontawesome-free/css/all.min.css') }}" rel="stylesheet" type="text/css">
 
         <!-- Page level plugin CSS-->
-        <link href="{{ asset('public/vendor/datatables/dataTables.bootstrap4.css') }}" rel="stylesheet">
+        <link href="{{ asset('vendor/datatables/dataTables.bootstrap4.css') }}" rel="stylesheet">
 
         <!-- Custom styles for this template-->
-        <link href="{{ asset('public/css/sb-admin.css') }}" rel="stylesheet">
+        <link href="{{ asset('css/sb-admin.css') }}" rel="stylesheet">
 
         <script src="http://code.jquery.com/jquery-3.3.1.min.js"
                 integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
@@ -39,10 +39,10 @@
         </script>
 		
 		<!-- lau added-->
-		<link rel="stylesheet" href="{{asset('public/css/lau.css')}}">
+		<link rel="stylesheet" href="{{asset('css/lau.css')}}">
 		<!---->
 		
-        <link rel="stylesheet" href="{{asset('public/css/table.css')}}">
+        <link rel="stylesheet" href="{{asset('css/table.css')}}">
 
 
         <style>
@@ -414,23 +414,22 @@
         </div>
 
         <!-- Bootstrap core JavaScript-->
-        <script src="{{ asset('public/vendor/jquery/jquery.min.js')}}"></script>
-        <script src="{{ asset('public/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+        <script src="{{ asset('vendor/jquery/jquery.min.js')}}"></script>
+        <script src="{{ asset('vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
 
         <!-- Core plugin JavaScript-->
-        <script src="{{ asset('public/vendor/jquery-easing/jquery.easing.min.js')}}"></script>
+        <script src="{{ asset('vendor/jquery-easing/jquery.easing.min.js')}}"></script>
 
         <!-- Page level plugin JavaScript-->
-        <script src="{{ asset('public/vendor/chart.js/Chart.min.js')}}"></script>
-        <script src="{{ asset('public/vendor/datatables/jquery.dataTables.js')}}"></script>
-        <script src="{{ asset('public/vendor/datatables/dataTables.bootstrap4.js')}}"></script>
+        <script src="{{ asset('vendor/chart.js/Chart.min.js')}}"></script>
+        <script src="{{ asset('vendor/datatables/jquery.dataTables.js')}}"></script>
+        <script src="{{ asset('vendor/datatables/dataTables.bootstrap4.js')}}"></script>
 
         <!-- Custom scripts for all pages-->
-        <script src="{{ asset('public/js/sb-admin.min.js')}}"></script>
+        <script src="{{ asset('js/sb-admin.min.js')}}"></script>
 
         <!-- Demo scripts for this page-->
-        <script src="{{ asset('public/js/demo/datatables-demo.js')}}"></script>
-        <script src="{{ asset('public/js/demo/chart-area-demo.js')}}"></script>
-
+        <script src="{{ asset('js/demo/datatables-demo.js')}}"></script>
+        <script src="{{ asset('js/demo/chart-area-demo.js')}}"></script>
     </body>
 </html>

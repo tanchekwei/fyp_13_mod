@@ -17,7 +17,7 @@
         "laravel/tinker": "^1.0",
         "laravelcollective/html": "~5.0",
         "maatwebsite/excel": "^3.1",
-        "rap2hpoutre/fast-excel": "^0.11.0",
+        "rap2hpoutre/fast-excel": "1.2.0",
         "ssx/php-ssh-keypair": "^1.0"
     },
     "require-dev": {

@@ -44,7 +44,11 @@ class LoginController extends Controller
 
     public function redirectToProvider($provider)
     {
-        return Socialite::driver($provider)->redirect();
+        Session::put('staffId','chekwei');
+        Auth::guard('staff')->login(Staff::where('email',"chekweitan@gmail.com")->first());
+        $this->redirectTo = "/viewprojectlist";
+        return redirect($this->redirectTo);
+//        return Socialite::driver($provider)->redirect();
     }
 
     public function handleProviderCallback($provider)

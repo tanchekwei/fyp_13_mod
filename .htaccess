@@ -4,7 +4,7 @@
     </IfModule>
 
 	DirectoryIndex index.php
-	
+
     RewriteEngine On
 
     # Handle Authorization Header

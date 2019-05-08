@@ -21,7 +21,7 @@ class ProjectListController extends Controller {
         $project = Project::all();
         $fypstaff = Staff::all();
         $student = Student::all();
-        return view('projectlist.viewprojectlists', compact('team', 'project', 'fypstaff', 'student'));
+        return view('projectlist.viewprojectlists', compact('project', 'fypstaff', 'student'));
     }
 
     public function view($projectCode) {

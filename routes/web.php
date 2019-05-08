@@ -349,7 +349,7 @@ Route::get('/displaysubmission', 'DisplaySubmissionController@index')->name('dis
 Route::get('/displaysubmission/show/{projectCode}/{teamID}/{isCompetition}', 'DisplaySubmissionController@show')->name('displaysubmission.show');
 Route::get('/displaysubmission/download/{item_id}', 'DisplaySubmissionController@download')->name('displaysubmission.download');
 Route::get('/displaysubmission/remove/{submission_id}', 'DisplaySubmissionController@remove')->name('displaysubmission.remove');
-Route::get('placeholder', 'PlaceholderController@index')->name('placeholder');
+//Route::get('placeholder', 'PlaceholderController@index')->name('placeholder');
 
 // lau 
 //Route::get('/project', 'ProjectController2@index')->name('project_home');// project home, show project list under currently logged in staff
